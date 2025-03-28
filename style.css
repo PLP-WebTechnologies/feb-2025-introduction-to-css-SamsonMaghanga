@@ -1,0 +1,35 @@
+/* Apply a unique font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0a23;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Styling for the heading using an ID */
+#main-heading {
+    font-size: 2.5rem;
+    color: #d896ff;
+    text-shadow: 2px 2px 5px rgba(216, 150, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+/* Styling for paragraph using a class */
+.intro-text {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #d896ff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Image styling */
+.styled-image {
+    width: 250px;
+    height: auto;
+    border: 3px solid #d896ff;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
